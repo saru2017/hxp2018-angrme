@@ -3,7 +3,7 @@
 https://2018.ctf.link/internal/challenge/de276158-e100-4009-aa3e-31ec113a6c32.html
 
 問題文をよく読みましょう。
-「I hope you do not need more than three lines of python to solve this.」を読んでPython 3行で書けるのかー。そら楽勝だ、ぐらいしか考えなかったのが***良くない。***
+「I hope you do not need more than three lines of python to solve this.」を読んでPython 3行で書けるのかー。そら楽勝だ、ぐらいしか考えなかったのが ***良くない。***
 何が良くなかったのかは後ほど。
 
 ## ざっとしらべる
