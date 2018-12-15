@@ -63,7 +63,7 @@ $ objdump -d -M intel angrme | less
 
 - とにかくmainが長い
 - 最初にfgets
-  - ```jne    2390 <main+0x1230>```がたくさん出てくる
+- ```jne    2390 <main+0x1230>```がたくさん出てくる
 
 
 ```bash-statement
@@ -141,6 +141,13 @@ saru@lucifen:~/hxp2018-angrme/angrme$ objdump -d -M intel angrme |grep 2390 | gr
 「I hope you do not need more than three lines of python to solve this.」
 に関しても確かにflagを書いたpythonプログラムを書けば3行で終わるか、ぐらいにしか考えなかった。
 
+### まとめると
+
+1. 文字列を受け取る
+2. おそらく受け取った文字列がフラグなら正解のメッセージが表示される
+3. フラグかどうかはいろんな計算をごにょごにょして途中途中の計算結果をチェックしながら違った場合には```jne    2390 <main+0x1230>```で最後に飛ぶ
+4. どんな計算をしてるか分かればFLAGも逆算できるはず！
+
 
 ### slackに状況を送ってみる
 
@@ -156,10 +163,6 @@ saru@lucifen:~/hxp2018-angrme/angrme$ objdump -d -M intel angrme |grep 2390 | gr
 
 
 
-### まとめると
-
-1. 文字列を受け取る
-2. おそらく
 
 
 
