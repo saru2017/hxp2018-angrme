@@ -183,7 +183,6 @@ condaを使ってpython 3.7を使える環境を作る。
 ```bash-statement
 $ conda create -n angr3.7 python=3.7
 $ conda info -e
-$ conda info -e
 # conda environments:
 #
 angr3.4                  /home/saru/.pyenv/versions/anaconda3-4.4.0/envs/angr3.4
@@ -292,7 +291,7 @@ WARNING | 2018-12-15 14:51:05,134 | angr.state_plugins.symbolic_memory | Registe
 WARNING | 2018-12-15 14:51:05,136 | angr.state_plugins.symbolic_memory | Register r12 has an unspecified value; Generating an unconstrained value of 8 bytes.
 WARNING | 2018-12-15 14:51:05,140 | angr.state_plugins.symbolic_memory | Register rbx has an unspecified value; Generating an unconstrained value of 8 bytes.
 WARNING | 2018-12-15 14:51:05,182 | angr.state_plugins.symbolic_memory | Register cc_ndep has an unspecified value; Generating an unconstrained value of 8 bytes.
-b'hxp{4nd_n0w_f0r_s0m3_r3al_ch4ll3ng3}'
+b'hxp{xxxxxxxxxxxxxxxx}'
 (angr3.7) $
 ```
 
